@@ -1,0 +1,97 @@
+@import 'colors';
+
+.top
+{
+  padding:13% 0 15% 0;
+
+  h1, h2
+  {
+    color: white;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.7em;
+    font-style: italic;
+  }
+
+}
+
+.background
+{
+  width: 100%;
+  background-image:url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-height: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Julius Sans One';
+}
+
+h2 {
+  font-family: 'Crimson text';
+}
+
+#about {
+  background-color: white;
+   padding:3% 0 3% 0;
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  img {
+
+    max-width:90%;
+    height: auto;
+
+  }
+
+  @media screen and (orientation: portrait) {
+  img.ri { max-width: 80%; }
+}
+
+
+}
+
+p {
+  font-size: 1.2em;
+  font-family: 'Crimson text';
+}
+
+#contact
+{
+    h1 {
+    font-size: 1.8em;
+  } 
+  background-color: $stem;
+  padding:3% 0 3% 0;
+}
+
+.btn-default
+{
+  background-color:$leaf;
+  border-color:$shadow;
+}
+
+.error {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.submissionMessage {
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+  display: block;
+  box-shadow: 0 0 2px white;
+  width: 60%;
+}

@@ -1,0 +1,65 @@
+.top {
+  padding: 13% 0 15% 0; }
+  .top h1, .top h2 {
+    color: white; }
+  .top h1 {
+    font-size: 2.5em; }
+  .top h2 {
+    font-size: 1.7em;
+    font-style: italic; }
+
+.background {
+  width: 100%;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-height: auto; }
+
+.center {
+  text-align: center; }
+
+h1 {
+  font-family: 'Julius Sans One'; }
+
+h2 {
+  font-family: 'Crimson text'; }
+
+#about {
+  background-color: white;
+  padding: 3% 0 3% 0; }
+  #about h1 {
+    font-size: 1.8em; }
+  #about img {
+    max-width: 90%;
+    height: auto; }
+  @media screen and (orientation: portrait) {
+    #about img.ri {
+      max-width: 80%; } }
+
+p {
+  font-size: 1.2em;
+  font-family: 'Crimson text'; }
+
+#contact {
+  background-color: #d2dda2;
+  padding: 3% 0 3% 0; }
+  #contact h1 {
+    font-size: 1.8em; }
+
+.btn-default {
+  background-color: #8fb999;
+  border-color: #6b8e9c; }
+
+.error {
+  background-color: rgba(255, 0, 0, 0.2); }
+
+.submissionMessage {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+  display: block;
+  box-shadow: 0 0 2px white;
+  width: 60%; }
+
+/*# sourceMappingURL=main.css.map */
